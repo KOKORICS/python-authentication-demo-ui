@@ -86,6 +86,12 @@ VERSION=[PhilSys Version]
 
 7. **Run the Django Project**
 
+
+```bash
+python3 auth_demo_ui/manage.py runserver 8000
+```
+- Alternatively, this project is integrated with docker for containerization of the project.
+
 ```bash
 docker-compose up --build
 ```
